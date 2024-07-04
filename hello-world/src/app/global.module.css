@@ -1,0 +1,11 @@
+.Home a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+    background-color: rgb(110, 110, 164);
+    color: white;
+}
+.Home div{
+    padding: 1rem;
+    background-color: rgb(203, 193, 193);
+}
