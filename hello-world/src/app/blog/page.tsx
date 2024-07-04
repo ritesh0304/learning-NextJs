@@ -1,7 +1,7 @@
 
 export default function  Blog() {
 
-  for(let i=0; i<1000000000; i++){
+  for(let i=0; i<100000000; i++){
 
   }
 
