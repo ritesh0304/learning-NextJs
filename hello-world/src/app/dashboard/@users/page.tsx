@@ -1,10 +1,8 @@
-import Card from "@/components/card"
+import Card from "@/components/card";
 
 
-function Users() {
+export default function Users() {
   return (
-    <Card>Users page</Card>
+    <Card>Users</Card>
   )
 }
-
-export default Users

@@ -1,9 +1,8 @@
-import Card from "@/components/card"
+import Card from "@/components/card";
 
-function Notifications() {
+
+export default function Notifications() {
   return (
     <Card>Notifications</Card>
   )
 }
-
-export default Notifications

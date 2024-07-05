@@ -1,7 +1,8 @@
-
-
-export default function Dashboard() {
+// src/app/dashboard/page.js
+export default function DashboardPage() {
   return (
-    <div>page</div>
-  )
+    <div>
+      Main content goes here
+    </div>
+  );
 }

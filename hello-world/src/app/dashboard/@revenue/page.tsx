@@ -1,10 +1,8 @@
-import Card from "@/components/card"
+import Card from "@/components/card";
 
 
-function Revenue() {
+export default function Revenue() {
   return (
     <Card>Revenue</Card>
   )
 }
-
-export default Revenue
