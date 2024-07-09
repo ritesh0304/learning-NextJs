@@ -9,6 +9,7 @@ export async function GET(request: NextRequest) {
     return new Response("profile Api data",{
         headers:{
             "Content-Type":"text/html",
+            "Set-Cookie":"theme=white;Path=/;"
         }
     });
 }
