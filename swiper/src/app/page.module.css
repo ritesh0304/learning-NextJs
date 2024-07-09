@@ -1,0 +1,48 @@
+.sliderWrapper {
+  padding: 40px 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+  overflow-x: hidden;
+  /* flex-wrap: wrap; */
+  /* overflow:auto; */
+  scrollbar-width: thin; /* Can be auto, thin, or none */
+  scrollbar-color: #5a1f1f #f1f1f1;
+}
+.sliderWrapper::-webkit-scrollbar{
+  height: 12px;
+  border-radius: 20px;
+}
+.sliderWrapper::-webkit-scrollbar-thumb {
+  background-color: #881818; /* Change scrollbar thumb color */
+  border-radius: 10px; /* Round the corners of the scrollbar thumb */
+}
+.sliderWrapper::-webkit-scrollbar-track {
+  background-color: #8f3030; /* Change scrollbar track color */
+}
+.sliderWrapper::-webkit-scrollbar-track-piece{
+  background-color: pink;
+}
+.navigation {
+  margin-right: 30px;
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+}
+
+.navigation button {
+  padding: 10px;
+  width: 80px;
+  background-color: rgb(64, 80, 160);
+  border: none;
+  border-radius: 8px;
+}
+
+@media screen and (min-width:800px) {
+  .sliderWrapper {
+    overflow-x:auto;
+  }
+}
+
